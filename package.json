@@ -6,9 +6,9 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "start:dev": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Undisputed06/food-festival.git"
